@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PMSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Vehicle_Parking">
+    <Key>
+      <PropertyRef Name="RegistrationId" />
+    </Key>
+    <Property Name="SlotId" Type="int" Nullable="false" />
+    <Property Name="ArrivalTime" Type="datetime" />
+    <Property Name="DepartTime" Type="date" />
+    <Property Name="TotalFare" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="RegistrationId" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="VehicleType" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Floor" Type="nvarchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="PMSModelStoreContainer">
+    <EntitySet Name="Vehicle_Parking" EntityType="Self.Vehicle_Parking" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,12 @@
+E:\wpf\ParkingManagementSystem\PMSModel\bin\Release\PMSModel.dll.config
+E:\wpf\ParkingManagementSystem\PMSModel\bin\Release\PMSModel.dll
+E:\wpf\ParkingManagementSystem\PMSModel\bin\Release\PMSModel.pdb
+E:\wpf\ParkingManagementSystem\PMSModel\bin\Release\EntityFramework.dll
+E:\wpf\ParkingManagementSystem\PMSModel\bin\Release\EntityFramework.SqlServer.dll
+E:\wpf\ParkingManagementSystem\PMSModel\bin\Release\EntityFramework.xml
+E:\wpf\ParkingManagementSystem\PMSModel\bin\Release\EntityFramework.SqlServer.xml
+E:\wpf\ParkingManagementSystem\PMSModel\obj\Release\PMSModel.csprojResolveAssemblyReference.cache
+E:\wpf\ParkingManagementSystem\PMSModel\obj\Release\PMSModel.csproj.CoreCompileInputs.cache
+E:\wpf\ParkingManagementSystem\PMSModel\obj\Release\PMSModel.csproj.CopyComplete
+E:\wpf\ParkingManagementSystem\PMSModel\obj\Release\PMSModel.dll
+E:\wpf\ParkingManagementSystem\PMSModel\obj\Release\PMSModel.pdb

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Vehicle_Parking">
+    <Key>
+      <PropertyRef Name="RegistrationId" />
+    </Key>
+    <Property Name="SlotId" Type="Int32" Nullable="false" />
+    <Property Name="ArrivalTime" Type="DateTime" Precision="3" />
+    <Property Name="DepartTime" Type="DateTime" Precision="0" />
+    <Property Name="TotalFare" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="RegistrationId" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="VehicleType" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Floor" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="PMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Vehicle_Parking" EntityType="Self.Vehicle_Parking" />
+  </EntityContainer>
+</Schema>
